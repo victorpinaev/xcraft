@@ -1,0 +1,171 @@
+	#content {
+		
+	}
+	#content .container {
+	}
+	#logo {
+		float:left;
+	}
+	.menusearch .searchform { 
+		background:url(../images/menusearch.png);
+	}
+	.menusearch {
+		width:230px;
+		margin-top:5px;
+		margin-right:40px;
+		float:right;
+	}
+	.menusearch #s { 
+		width:175px;
+		color:#fff;
+		text-transform:lowercase;
+	}
+	#main_content {
+		padding:0 10px 20px;
+	}
+	/*------------------------------ MENU ------------------------------*/
+	#secondarymenu-container {
+		height:50px;
+		position:relative;
+		z-index:11;
+	}
+	
+	
+	#secondarymenu {
+		float:right;
+		margin:2px 0;
+	}
+	#secondarymenu a {
+		padding:8px 11px;
+		font-family: 'pt_sansregular';
+		font-size:13px;
+		color:#fff;
+	}
+	#secondarymenu a:hover{
+		background:url(../images/sec-hover.png) left top repeat-x;
+		color:#083b4e;
+	}
+	#header-block {
+		position:relative;
+	}
+	
+	#mainmenu-container {
+		height:36px;
+		z-index:18;
+		position:relative;
+		float:right;
+		margin:15px 0;
+	}
+	#mainmenu li a {
+		padding:7px 40px 7px 15px;
+		font-size:17px;
+		color:#fff;
+		text-transform:uppercase;
+		font-family: 'pt_sansbold';
+	}
+	#mainmenu li {
+		position:relative;
+	}
+	#mainmenu li a:hover{
+		background:url(../images/mainmenu-hover.png) left top repeat-x;
+		color:#083b4e;
+	}
+
+
+	#header li ul {	top:32px; }
+	#header #mainmenu li ul { top:34px; }
+	
+	#header li ul .transparent {	}
+	#header li ul .inner { background:#00aeef; }
+	#header #mainmenu li ul .transparent {	}
+	#header #mainmenu li ul .inner {	}
+	
+	#header ul.children li a, #header .sub-menu li a {
+		color:#fff; 
+		padding:0 20px;
+		text-align:left;
+		font-family: 'pt_sansregular' !important;
+		font-size:12px !important;
+		background:none !Important;
+	}
+	#header ul.children li a:hover, #header .sub-menu li a:hover {
+		color:#083b51;
+	}
+	
+	#header #mainmenu ul.children li a, #header #mainmenu .sub-menu li a {
+		font-family:"PT Sans Narrow Bold" !important; 
+		font-size:18px !important;
+		text-transform:uppercase;
+	}
+	#header #mainmenu ul.children li a:hover, #header #mainmenu .sub-menu li a:hover {		
+	}
+	
+	/*------------------------------ SLIDER ------------------------------*/
+	.slider-container {	
+		background:url(../images/slider-back.png);
+		position:relative;
+		margin:0 auto 25px;
+		width:980px;
+		height:400px;
+		padding:10px;
+	}
+	.slider {
+	}
+	.fp-next, .fp-prev {
+		margin:0 -17px;
+		width:44px;
+		height:390px;
+		display:none !important;
+	}
+	.fp-title a{
+		font-size:48px;
+		text-decoration:none;
+		font-family:"PT Sans Narrow Bold";
+		color:#fff;
+		text-transform:uppercase;
+	}
+	
+	.fp-prev-next-wrap {
+		margin:0 0px;
+	}
+	.slider-nothumb .fp-slides, .slider-nothumb .fp-thumbnail, .slider-nothumb .fp-slides-items {
+		height:188px;
+	}
+	.fp-slides,.fp-thumbnail,.fp-slides-items  {
+		height:400px;
+		width:980px;
+	}
+	.fp-content-fon {
+		display:none !Important;
+	}
+	.fp-content { 
+		left:10px;
+		right:550px;
+		height:250px;
+		bottom:0;
+		text-align:left;
+		font-size:13px;
+	}
+	.fp-content p {
+		line-height:20px;
+	}
+	.fp-nav {
+		right:30px;
+		bottom:30px;
+		left:auto;
+	}
+	.fp-pager a { 
+		width:19px;
+		height:18px;
+	}
+	.slider-nothumb .fp-content-fon {
+		background:#fff;
+	}
+	.slider-nothumb .fp-content a,.slider-nothumb .fp-content p{
+		color:#000;
+	}
+	
+	#footer .footer_txt .container {
+		
+	}
+	#content .container { background:url(../images/content/main-n.png) center top repeat-y; }
